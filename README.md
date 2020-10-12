@@ -8,9 +8,9 @@ The ETL pipeline extracts their data from S3, stages them in Redshift, and trans
 
 ## Files in repository
 
-create_tables.py: Python script to create database and the tables.   
-sql_queries.py: Python script that contains SQL statements for creating tables and Inserting records into tables.  
-etl.py: Python script that extracts data from S3, transforms and loads into Redshift.   
+**create_tables.py** : Python script to create database and the tables.   
+**sql_queries.py**   : Python script that contains SQL statements for creating tables and Inserting records into tables.  
+**etl.py**           : Python script that extracts data from S3, transforms and loads into Redshift.   
 
 
 ## Project Datasets
